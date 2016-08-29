@@ -7,6 +7,11 @@
       body {
         background-color: black;
         color: white;
+        font-size: 16px;
+      }
+
+      body a {
+        color: hsl(120, 50%, 50%);
       }
 
       .centered-container {
@@ -14,6 +19,26 @@
         min-width: 800px;
         max-width: 1000px;
         margin: 0 auto;
+        text-align: center;
+      }
+
+      #images {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      li {
+        margin-bottom: .5em;
+      }
+
+      li > a {
+        text-decoration: none;
+        font-size: 1.5em;
       }
     </style>
   </head>
@@ -30,6 +55,7 @@
         <p>
           With Stock Alert Free, available for iOS and Android devices, get
           notifications whenever a stock price reaches or drops to a set price.
+          <br>
           Never again miss a change in the market.
         </p>
 
